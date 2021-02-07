@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+                        #Header{
+                background-color:gainsboro ;
+                color:black ;
+                padding: 30px;
+                text-align:center;
+                        }
+
+            ul{ 
+                background-color: gainsboro;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            li{
+                display: inline;
+            }
+            li a{
+                display: inline;
+            }
+        </style>
+        <body>
+            <h1 id="Header">Order form</h1>
+            <div>
+                <ul>
+                    <li><a title-page.html="#Home">Home</a></li>
+                    <li><a inventory.html="#Inventory">Inventory</a></li>
+                    <li><a order_page.html="#Order">Order</a></li>
+        
+                </ul>
+    
+            </div>
+            <div>
+                <form action="/order_form.php">
+                    <label for="fname">First name</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="ctype"> Cannon type </label><br>
+                    <input type="text" id="ctype" name="ctype"><br>
+                    <label for= "number">number of cannons</label><br>
+                    <input type="number" id="number" name="number"><br>
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+
+        </body>
+    </head>
+</html>
+      
